@@ -12,7 +12,8 @@
     "tabs"
   ],
   "host_permissions": [
-    "http://localhost:8080/*"
+    "http://localhost:8080/*",
+    "https://motivetodoapp.onrender.com/*"
   ],
   "icons": {
     "16": "favicon.svg",
