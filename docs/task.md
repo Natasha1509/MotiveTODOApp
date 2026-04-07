@@ -1,0 +1,26 @@
+# Implementation Tasks: Todo App with Motivation Features
+
+- `[x]` **Phase 1: Project Scaffolding**
+  - `[x]` Initialize Java Spring Boot backend project
+  - `[x]` Initialize React/Vite Chrome Extension frontend project
+- `[x]` **Phase 2: Backend Core**
+  - `[x]` User Authentication (JWT)
+  - `[x]` Task Management API
+  - `[x]` Motivational Quote Service API
+- `[x]` **Phase 3: Frontend Extension Core**
+  - `[x]` Setup global theme: CSS tokens, Typography, Dark Mode
+  - `[x]` Build Authentication UI (Login / Register Screens)
+  - `[x]` Build Main Task List View
+- `[x]` **Phase 4: Focus Mode & Motivation**
+  - `[x]` Build Task Creation UI and form logic
+  - `[x]` Implement "Launch Focus Mode" (Full-Tab view)
+  - `[x]` Build Immersive Focus UI with Live Timer
+- `[x]` **Phase 5: Polish & UI/UX**
+  - `[x]` Skeleton Loading UI for initial dashboard
+  - `[x]` Success Celebration Overlay on focus completion
+  - `[x]` Hover effects and refined transitions
+- `[x]` **Phase 6: Task Management Refinement (CRUD)**
+  - `[x]` Refactor task rows into `TaskItem.tsx`
+  - `[x]` Implement Inline Editing (✏️ Icon)
+  - `[x]` Implement "Are you sure?" Delete Confirmation (🗑️ Icon)
+  - `[x]` Verify Backend `PUT` and `DELETE` synchronization

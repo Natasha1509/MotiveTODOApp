@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "MotiveTODO",
+  "version": "1.0.0",
+  "description": "Focus Motivational Todo App",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "MotiveTODO"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ],
+  "icons": {
+    "16": "favicon.svg",
+    "48": "favicon.svg",
+    "128": "favicon.svg"
+  }
+}
