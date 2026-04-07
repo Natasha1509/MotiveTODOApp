@@ -8,6 +8,6 @@ import java.util.Optional;
 
 public interface QuoteRepository extends JpaRepository<Quote, Long> {
 
-    @Query(value = "SELECT * FROM quotes ORDER BY RAND() LIMIT 1", nativeQuery = true)
+    @Query(value = "SELECT * FROM quotes ORDER BY RANDOM() LIMIT 1", nativeQuery = true)
     Optional<Quote> findRandom();
 }
